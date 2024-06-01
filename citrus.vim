@@ -86,6 +86,7 @@ hi SpellLocal guisp=#7cac7c guifg=#9ccc9c  ctermfg=151 ctermbg=237
 
 " basic
 hi Normal        guifg=#dcdccc guibg=#18181b           ctermfg=188 ctermbg=234
+"hi Normal        guifg=#eedcc1 guibg=#18181b           ctermfg=188 ctermbg=234
 hi Conceal       guifg=#8f8f8f guibg=#333333           ctermfg=246 ctermbg=235
 hi ColorColumn   guibg=#33332f                         ctermbg=235
 hi CursorColumn  guibg=#2b2b2b gui=bold                ctermbg=235 cterm=bold
