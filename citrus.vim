@@ -48,7 +48,7 @@ hi Macro guifg=#ffcfaf guibg=NONE gui=bold ctermfg=223 ctermbg=NONE cterm=bold
 hi ModeMsg guifg=#ffcfaf guibg=NONE gui=none ctermfg=223 ctermbg=NONE cterm=none
 hi MoreMsg guifg=#ffffff guibg=NONE gui=bold ctermfg=231 ctermbg=NONE cterm=bold
 hi Number guifg=#8cd0d3 guibg=NONE gui=NONE ctermfg=116 ctermbg=NONE cterm=NONE
-hi Operator guifg=#f0efd0 guibg=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
+hi Operator guifg=#dcdccc guibg=NONE gui=NONE ctermfg=230 ctermbg=NONE cterm=NONE
 hi PmenuSbar guifg=#000000 guibg=#2e3330 gui=NONE ctermfg=16 ctermbg=23 cterm=NONE
 hi PmenuThumb guifg=#040404 guibg=#a0afa0 gui=NONE ctermfg=16 ctermbg=145 cterm=NONE
 hi PreCondit guifg=#dfaf8f guibg=NONE gui=bold ctermfg=180 ctermbg=NONE cterm=bold
@@ -62,8 +62,8 @@ hi SpecialComment guifg=#82a282 guibg=NONE gui=bold ctermfg=108 ctermbg=NONE cte
 hi Special guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 hi SpecialKey guifg=#9ece9e guibg=NONE gui=NONE ctermfg=151 ctermbg=NONE cterm=NONE
 hi Statement guifg=#ffd787 guibg=NONE gui=none ctermfg=222 ctermbg=NONE cterm=none
-hi StatusLine guifg=#313633 guibg=#ccdc90 gui=NONE ctermfg=59 ctermbg=186 cterm=NONE
-hi StatusLineNC guifg=#2e3330 guibg=#88b090 gui=NONE ctermfg=23 ctermbg=108 cterm=NONE
+hi StatusLine guifg=#dcdccc guibg=#333333 gui=NONE ctermfg=59 ctermbg=186 cterm=NONE
+hi StatusLineNC guifg=#7f7f7f guibg=#262626 gui=NONE ctermfg=23 ctermbg=108 cterm=NONE
 hi StorageClass guifg=#c3bf9f guibg=NONE gui=bold ctermfg=181 ctermbg=NONE cterm=bold
 hi String guifg=#ffc1c1 guibg=NONE gui=NONE ctermfg=217 ctermbg=NONE cterm=NONE
 hi Structure guifg=#ffa263 guibg=NONE gui=bold ctermfg=215 ctermbg=NONE cterm=bold
@@ -73,7 +73,7 @@ hi Todo guifg=#dfdfdf guibg=NONE gui=bold ctermfg=188 ctermbg=NONE cterm=bold
 hi Typedef guifg=#ffa263 guibg=NONE gui=bold ctermfg=215 ctermbg=NONE cterm=bold
 hi Type guifg=#ffa263 guibg=NONE gui=bold ctermfg=215 ctermbg=NONE cterm=bold
 hi Underlined guifg=#dcdccc guibg=NONE gui=underline ctermfg=188 ctermbg=NONE cterm=underline
-hi VertSplit guifg=#2e3330 guibg=#688060 gui=NONE ctermfg=23 ctermbg=65 cterm=NONE
+hi VertSplit guifg=#2e3330 guibg=NONE gui=NONE ctermfg=23 ctermbg=NONE cterm=NONE
 hi VisualNOS guifg=#333333 guibg=#f18c96 gui=bold,underline ctermfg=59 ctermbg=210 cterm=bold,underline
 hi WarningMsg guifg=#ffffff guibg=#333333 gui=bold ctermfg=231 ctermbg=59 cterm=bold
 hi WildMenu guifg=#cbecd0 guibg=#2c302d gui=underline ctermfg=194 ctermbg=22 cterm=underline
