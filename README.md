@@ -1,3 +1,3 @@
 # citrus.vim
 
-<img src="../assets/screenshot2.png"/>
+<img src="../assets/screenshot.png"/>
