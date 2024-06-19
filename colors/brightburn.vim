@@ -42,7 +42,7 @@ hi FoldColumn guifg=#93b3a3 guibg=#3f4040 gui=NONE ctermfg=109 ctermbg=59 cterm=
 hi Folded guifg=#93b3a3 guibg=#3f4040 gui=NONE ctermfg=109 ctermbg=59 cterm=NONE
 hi Function guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 hi Identifier guifg=#efdcbc guibg=NONE gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE
-hi IncSearch guifg=#f8f893 guibg=#385f38 gui=NONE ctermfg=228 ctermbg=59 cterm=NONE
+hi IncSearch guifg=#FFE636 guibg=#455445 gui=NONE ctermfg=228 ctermbg=59 cterm=NONE
 hi Keyword guifg=#ffd787 guibg=NONE gui=bold ctermfg=222 ctermbg=NONE cterm=bold
 hi Macro guifg=#ffcfaf guibg=NONE gui=bold ctermfg=223 ctermbg=NONE cterm=bold
 hi ModeMsg guifg=#ffcfaf guibg=NONE gui=none ctermfg=223 ctermbg=NONE cterm=none
@@ -100,7 +100,7 @@ hi Folded guifg=NONE guibg=#161616 gui=NONE ctermfg=NONE ctermbg=16 cterm=NONE
 hi NonText guifg=#404040 guibg=NONE gui=bold ctermfg=59 ctermbg=NONE cterm=bold
 hi Pmenu guifg=#ccccbc guibg=#242424 gui=NONE ctermfg=187 ctermbg=16 cterm=NONE
 hi PmenuSel guifg=#ccdc90 guibg=#353a37 gui=bold ctermfg=186 ctermbg=59 cterm=bold
-hi MatchParen guifg=#f8f893 guibg=#385f38 gui=bold ctermfg=228 ctermbg=59 cterm=bold
+hi MatchParen guifg=#ffdf9f guibg=#455445 gui=bold ctermfg=228 ctermbg=59 cterm=bold
 hi SignColumn guifg=NONE guibg=#181818 gui=NONE ctermfg=NONE ctermbg=16 cterm=NONE
 hi SpecialKey guifg=NONE guibg=#242424 gui=NONE ctermfg=NONE ctermbg=16 cterm=NONE
 hi TabLine guifg=#88b090 guibg=#313633 gui=none ctermfg=108 ctermbg=59 cterm=none
@@ -128,14 +128,14 @@ hi link Union             WarningMsg
 " Terminal support for Vim 8+
 if version >= 802
     let g:terminal_ansi_colors = [
-        \ '#1f1f1f', '#cc9393',
-        \ '#5f7f5f', '#ffd7a7',
-        \ '#8cb0d3', '#8f8f8f',
-        \ '#71d3b4', '#dfe4cf',
+        \ '#1f1f1f', '#ac4142',
+        \ '#90a959', '#f4bf75',
+        \ '#6a9fb5', '#8f8f8f',
+        \ '#75b5aa', '#dcdccc',
         \ '#6f6f6f', '#ecb3b3',
-        \ '#ffd7a7', '#8cb0d3',
-        \ '#8f8f8f', '#71d3b4',
-        \ '#dfe4cf', '#ffcfaf',
+        \ '#f4bf75', '#6a9fb5',
+        \ '#8f8f8f', '#75b5aa',
+        \ '#dcdccc', '#ffcfaf',
         \]
 else
     if version >= 800
