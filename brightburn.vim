@@ -19,7 +19,7 @@ hi clear
 if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name="citrus"
+let g:colors_name="brightburn"
 
 hi Boolean guifg=#ffa263 guibg=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Character guifg=#dca3a3 guibg=NONE gui=bold ctermfg=181 ctermbg=NONE cterm=bold
