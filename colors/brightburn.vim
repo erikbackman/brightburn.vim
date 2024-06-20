@@ -42,7 +42,7 @@ hi FoldColumn guifg=#93b3a3 guibg=#3f4040 gui=NONE ctermfg=109 ctermbg=59 cterm=
 hi Folded guifg=#93b3a3 guibg=#3f4040 gui=NONE ctermfg=109 ctermbg=59 cterm=NONE
 hi Function guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 hi Identifier guifg=#efdcbc guibg=NONE gui=NONE ctermfg=223 ctermbg=NONE cterm=NONE
-hi IncSearch guifg=#FFE636 guibg=#455445 gui=NONE ctermfg=228 ctermbg=59 cterm=NONE
+hi IncSearch guifg=#FFE636 guibg=#385f38 gui=NONE ctermfg=228 ctermbg=59 cterm=NONE
 hi Keyword guifg=#ffd787 guibg=NONE gui=bold ctermfg=222 ctermbg=NONE cterm=bold
 hi Macro guifg=#ffcfaf guibg=NONE gui=bold ctermfg=223 ctermbg=NONE cterm=bold
 hi ModeMsg guifg=#ffcfaf guibg=NONE gui=none ctermfg=223 ctermbg=NONE cterm=none
