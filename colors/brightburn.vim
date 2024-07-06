@@ -111,6 +111,9 @@ call s:h("netrwExe", {"fg": s:green2 })
 call s:h("vimOption", s:keyword)
 call s:h("vimCommentTitle", s:default)
 call s:h("vimSep", s:default)
+call s:h("PreProc", s:default)
+call s:h("LineNr", {"fg": s:gray3})
+call s:h("EndOfBuffer", {"fg": s:gray})
 
 " Tags
 hi link Class             Function
