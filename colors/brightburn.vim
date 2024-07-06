@@ -67,8 +67,8 @@ let s:number = { "fg": s:blue }
 let s:string = { "fg": s:pink }
 let s:structure = { "fg": s:orange }
 let s:type = { "fg": s:orange, "gui": "bold" }
-let s:ui_active = { "fg": s:yellow, "bg": s:gray2 }
-let s:ui_inactive = { "fg": s:beige, "bg": s:gray1 }
+let s:ui_active = { "fg": s:yellow2, "bg": s:gray0 }
+let s:ui_inactive = { "fg": s:beige, "bg": s:gray4 }
 let s:ui_status_active = { "fg": s:white, "bg": s:gray0 }
 let s:ui_status_inactive = { "fg": s:gray3, "bg": s:gray4 }
 
