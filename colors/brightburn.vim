@@ -36,6 +36,7 @@ endfunction
 let s:beige = { "gui": "#efdcbc" }
 let s:beige2 = { "gui": "#bfb096" }
 let s:black = { "gui": "#18181b" }
+let s:pureblack = { "gui": "#000000" }
 let s:blue = { "gui": "#8cd0d3" } 
 let s:gray = { "gui": "#3f4040" }
 let s:gray0 = { "gui": "#333333" }
@@ -47,9 +48,12 @@ let s:gray5 = { "gui": "#1f1f1f" }
 let s:green = { "gui": "#acd2ac" }
 let s:green2 = { "gui": "#9ece9e" }
 let s:green3 = { "gui": "#93b3a3" }
+let s:green4 = { "gui": "#b1c37c" }
 let s:orange = { "gui": "#ffa263"}
+let s:orange2 = { "gui": "#503c1e"}
 let s:pink = { "gui": "#ffc1c1" }
 let s:red = { "gui": "#ac4142" }
+let s:red2 = { "gui": "#5a2828" }
 let s:silk = { "gui": "#ffcfaf"}
 let s:white = { "gui": "#dcdccc" }
 let s:white2 = { "gui": "#ffffff" }
@@ -117,6 +121,10 @@ call s:h("vimOption", s:keyword)
 call s:h("vimSep", s:default)
 call s:h("zigVarDecl", s:keyword)
 call s:h("ColorColumn", { "bg": s:gray5 })
+call s:h("DiffAdd", { "fg": s:pureblack, "bg": s:green4 })
+call s:h("DiffChange", { "fg": s:pureblack, "bg": s:orange })
+call s:h("DiffDelete", { "fg": s:pureblack, "bg": s:red })
+call s:h("DiffText", { "fg": s:pureblack, "bg": s:red })
 
 " Tags
 hi link Class             Function
