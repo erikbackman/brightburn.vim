@@ -43,6 +43,7 @@ let s:gray1 = { "gui": "#242424" }
 let s:gray2 = { "gui": "#353a37" }
 let s:gray3 = { "gui": "#7f7f7f" }
 let s:gray4 = { "gui": "#222222" }
+let s:gray5 = { "gui": "#1f1f1f" }
 let s:green = { "gui": "#acd2ac" }
 let s:green2 = { "gui": "#9ece9e" }
 let s:green3 = { "gui": "#93b3a3" }
@@ -115,6 +116,7 @@ call s:h("vimCommentTitle", s:default)
 call s:h("vimOption", s:keyword)
 call s:h("vimSep", s:default)
 call s:h("zigVarDecl", s:keyword)
+call s:h("ColorColumn", { "bg": s:gray5 })
 
 " Tags
 hi link Class             Function
