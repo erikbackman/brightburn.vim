@@ -86,8 +86,7 @@ call s:h("Boolean", s:type)
 call s:h("ColorColumn", { "bg": s:gray })
 call s:h("Comment", s:comment) 
 call s:h("Conditional", s:keywordb) 
-call s:h("Constant", s:keywordb) 
-call s:h("Constant", s:string)
+call s:h("Constant", s:default)
 call s:h("CursorLineNr", { "fg": s:gray0 })
 call s:h("Define", s:macro)
 call s:h("DiagnosticError", s:error)
@@ -179,6 +178,7 @@ if has('nvim-0.8')
     call s:h("@variable.builtin.vim", {"fg": s:yellow })
     " LSP
     call s:h("@lsp.type.namespace.zig", s:default)
+    call s:h("@lsp.type.enumMember.zig", s:default)
     " UI
     call s:h("WinSeparator", {"fg": s:gray0})
 endif
