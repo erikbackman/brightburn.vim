@@ -39,7 +39,6 @@ let s:beige3 = { "gui": "#b4aa99" }
 let s:black = { "gui": "#18181b" }
 let s:pureblack = { "gui": "#000000" }
 let s:purewhite = { "gui": "#ffffff" }
-
 let s:blue = { "gui": "#8cd0d3" } 
 let s:gray = { "gui": "#333333" }
 let s:gray0 = { "gui": "#6a6a6e" }
@@ -59,7 +58,6 @@ let s:red = { "gui": "#ac4142" }
 let s:red2 = { "gui": "#f0616d" }
 let s:silk = { "gui": "#ffcfaf"}
 let s:white = { "gui": "#dcdccc" }
-let s:white2 = { "gui": "#ffffff" }
 let s:yellow = { "gui": "#ffd787"}
 let s:yellow2 = { "gui": "#ffe636"}
 
@@ -175,7 +173,6 @@ if has('nvim-0.8')
     call s:h("@punctuation.delimiter", {"fg": s:white })
     call s:h("@type.builtin.zig", s:type)
     call s:h("@variable", s:default)
-    call s:h("@variable", {"fg": s:white })
     call s:h("@variable.parameter.zig", s:default)
     call s:h("@variable.zig", s:default)
     call s:h("@zigBlock", {"fg": s:yellow, "gui": "bold" })
