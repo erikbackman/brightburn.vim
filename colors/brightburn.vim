@@ -51,9 +51,10 @@ let s:green3 = { "gui": "#93b3a3" }
 let s:green4 = { "gui": "#b1c37c" }
 let s:orange = { "gui": "#ffa263"}
 let s:orange2 = { "gui": "#503c1e"}
+let s:orange3 = { "gui": "#ffaf00"}
 let s:pink = { "gui": "#ffc1c1" }
 let s:red = { "gui": "#ac4142" }
-let s:red2 = { "gui": "#5a2828" }
+let s:red2 = { "gui": "#f0616d" }
 let s:silk = { "gui": "#ffcfaf"}
 let s:white = { "gui": "#dcdccc" }
 let s:white2 = { "gui": "#ffffff" }
@@ -71,10 +72,14 @@ let s:number = { "fg": s:blue }
 let s:string = { "fg": s:pink }
 let s:structure = { "fg": s:orange }
 let s:type = { "fg": s:orange, "gui": "bold" }
-let s:ui_active = { "fg": s:yellow2, "bg": s:gray0 }
+let s:ui_active = { "fg": s:pureblack, "bg": s:orange3 }
 let s:ui_inactive = { "fg": s:beige, "bg": s:gray4 }
 let s:ui_status_active = { "fg": s:white, "bg": s:gray0 }
 let s:ui_status_inactive = { "fg": s:gray3, "bg": s:gray4 }
+let s:error = { "fg": s:red2 }
+let s:warning = { "fg": s:orange }
+let s:info = { "fg": s:blue }
+let s:hint = { "fg": s:green }
 
 " Highlighting
 call s:h("Boolean", s:type)
@@ -125,6 +130,13 @@ call s:h("DiffAdd", { "fg": s:pureblack, "bg": s:green4 })
 call s:h("DiffChange", { "fg": s:pureblack, "bg": s:orange })
 call s:h("DiffDelete", { "fg": s:pureblack, "bg": s:red })
 call s:h("DiffText", { "fg": s:pureblack, "bg": s:red })
+call s:h("Constant", s:string)
+call s:h("ModeMsg", s:hint)
+call s:h("DiagnosticError", s:error)
+call s:h("DiagnosticWarn ", s:warning)
+call s:h("DiagnosticInfo ", s:info)
+call s:h("DiagnosticHint ", s:hint)
+call s:h("QuickFixLine ", {"fg": s:orange3 })
 
 " Tags
 hi link Class             Function
